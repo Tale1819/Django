@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<head>
+    <!--first commit-->
+    <meta charset="utf-8">
+    <title>🍒Kang M.J🍒</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Nanum+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    body {
+        background-image: url('https://i.pinimg.com/originals/fb/9e/81/fb9e810428bbfc1cee8f9fd9d41f936a.jpg');
+        background-size: cover;
+    }
+</style>
+
+<body style="background-color:rgb(179, 133, 190);">
+    <header>
+        <img src="">
+        <div style="font-family: 'Nanum Gothic', sans-serif;">
+            <h1 style="color: white;"> &ensp; 뮤덕의 일상</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="{% url 'main' %} "><strong>메인</strong> </a></li>
+                    <li><a href="{% url 'proflie' %}"> <strong>소개</strong></a></li>
+                    <li><a href="{% url 'work' %}"> <strong>최근 본 작품</strong></a></li>
+                    <li><a href="{% url 'like' %}"> <strong>좋아하는 모든것 </strong></a></li>
+                    <li><a href="{% url 'sns' %}"> <strong>SNS</strong></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <br>
+
+
+    <div class="welcom" style="color: rgb(246, 212, 255);">
+        <h1 align="center" style="font-family:'Nanum Gothic', sans-serif;">
+            💞행복하고 즐거운 뮤지컬 덕질 생활💞
+        </h1>
+        <br>
+        <br>
+        <br>
+        <h3 align="center" style="font-family: 'Nanum Gothic', sans-serif;">자기 취향인 것 같은 작품만 봅니다.</h3>
+        <h3 align="center" style="font-family: 'Nanum Gothic', sans-serif;">즐거운 관극생활🌟</h3>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

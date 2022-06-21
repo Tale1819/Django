@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+
+<!--5 commit-->
+
+<head>
+    <meta charset="utf-8">
+    <title>🍒Kang M.J🍒</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="background-color: rgb(230, 203, 255);">
+    <header>
+        <img src="">
+        <div style="font-family: 'Nanum Gothic', sans-serif;">
+            <h1 style="color: white;"> &ensp; 뮤덕의 일상</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="{% url 'main' %} "><strong>메인</strong> </a></li>
+                    <li><a href="{% url 'proflie' %}"> <strong>소개</strong></a></li>
+                    <li><a href="{% url 'work' %}"> <strong>최근 본 작품</strong></a></li>
+                    <li><a href="{% url 'like' %}"> <strong>좋아하는 모든것 </strong></a></li>
+                    <li><a href="{% url 'sns' %}"> <strong>SNS</strong></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="box" style="border-radius : 5px; padding: 10px;">
+        <div class="work_list" style="color: white; font-family: 'Nanum Gothic', sans-serif;">
+            <h1><strong>2022. 06. 17 사의 찬미</strong></h1>
+            <img src="https://ww.namu.la/s/be93edaef0d5d37e1abf92cf37215c4f136d1ae650028b1c85c31b6182e392552c7a1d32b5e3212b191d91d5172f2fdd9f60da87482daf57d4820def783f7d3a3117ffd8bf91aba3fd070b30efeb441007117459dd072b1b4894cd2e06e1d401"
+                alt="사찬" height="400">
+            <hr>
+            <h2>“우린 새로운 세상으로 갈 거야. 준비됐어？”</h2>
+            <h3>2022.05.16~2022.07.24 대학로 TOM 1관</h3>
+            <hr>
+
+            <dl>
+                <dt><strong>Cast</strong></dt>
+                <dd>김우진: 진태화</dd>
+                <dd>윤심덕: 이지수</dd>
+                <dd>사내: 배나라</dd>
+                <hr>
+                <dt><strong>별점</strong></dt>
+                <dd>★★★★★</dd>
+                <hr>
+                <dt><strong>총평</strong></dt>
+                <dd>넘버가 너무 취향이고 배나라가 사내랑 잘어울려서 재밌게 봤다.</dd>
+                <hr>
+            </dl>
+            <br>
+            <br>
+            <hr>
+            <h1><strong>2022. 05. 29 미오 프라텔로</strong></h1>
+            <img src="https://w.namu.la/s/69b46e4d30ec1f1f8bdf996a8d8661c56fa3e7a777ae0f103f861b5f75b8d86d6e3b4a76c2532b4cb4714c47fde6fc90dac4986c4b657daad5b9ac0f7d3e5db1eb34c8729a1930f939220553d17a808406609392c09ab6a629c1f7924bc3721fb459ba11a91a47c2dc64846afcad29e2"
+                alt="미오" height="400">
+            <hr>
+            <h2>“거절할 수 없는 제안을 하지”</h2>
+            <h3>2022.03.08~2022.06.19 드림아트센터 1관</h3>
+            <hr>
+
+            <dl>
+                <dt><strong>Cast</strong></dt>
+                <dd>치치 외: 최석진</dd>
+                <dd>스티비 외: 유현석</dd>
+                <dd>써니보이 외: 정성일</dd>
+                <hr>
+                <dt><strong>별점</strong></dt>
+                <dd>★★★★☆</dd>
+                <hr>
+                <dt><strong>총평</strong></dt>
+                <dd>석치치 보러간건데 보러가길 잘한듯 근데 좀 이상한게 취향을 다 담았는데 다시 보고 싶은 마음은 안드는 듯</dd>
+                <hr>
+            </dl>
+            <br>
+            <br>
+            <hr>
+            <h1><strong>2022. 05. 28 데스노트</strong></h1>
+            <img src="https://w.namu.la/s/6c120a85b0be62f8f04fd2cd1201203931843fd9b55d61b8b1c231b07c2f329e65220e63c191453454b482cd56edc26d5902aa283bbd7e944743b7481b6cf36a29cc2cdeb81d8752678510eeed7f7f36c461cdf900c16ed43fe57fcc3e2b0698b28da177d5d892c5fc39c80678da8a49"
+                alt="데스노트" height="400">
+            <hr>
+            <h2>“누군가 이 세상을 바로잡아야 한다”</h2>
+            <h3>2022.04.01~2022.06.26 충무아트센터 대극장</h3>
+            <hr>
+
+            <dl>
+                <dt><strong>Cast</strong></dt>
+                <dd>야가미 라이토: 홍광호</dd>
+                <dd>엘: 김성철</dd>
+                <dd>렘: 장은아</dd>
+                <dd>류크: 강홍석</dd>
+                <dd>아마네 미사: 케이</dd>
+                <hr>
+                <dt><strong>별점</strong></dt>
+                <dd>★★★★☆</dd>
+                <hr>
+                <dt><strong>총평</strong></dt>
+                <dd>배경을 영상으로 한 연출이 공간 표현을 너무 잘했음 철엘이 엄청 귀엽다 하지만 가격 때문에 4.5점</dd>
+                <hr>
+            </dl>
+        </div>
+    </div>
+
+    <h3 style="color: rgb(112, 112, 112);">추가적으로 계속 생길 예정입니다</h3>
+    <br>
+</body>
+
+</html>
